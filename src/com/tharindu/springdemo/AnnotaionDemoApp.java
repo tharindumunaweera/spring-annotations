@@ -3,6 +3,9 @@ package com.tharindu.springdemo;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class AnnotaionDemoApp {
+	public AnnotaionDemoApp() {
+		System.out.println("in main methd constructor");
+	}
 
 	public static void main(String[] args) {
 		// read spring config file
